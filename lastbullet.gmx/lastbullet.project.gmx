@@ -9,8 +9,11 @@
     <sprite>sprites\sp_player_idle</sprite>
     <sprite>sprites\sp_ground</sprite>
     <sprite>sprites\sp_wall</sprite>
-    <sprite>sprites\sp_player_moveright</sprite>
-    <sprite>sprites\sp_player_moveleft</sprite>
+    <sprite>sprites\sp_player_run</sprite>
+    <sprite>sprites\sp_player_jump</sprite>
+    <sprite>sprites\sp_bullet</sprite>
+    <sprite>sprites\sp_player_shot</sprite>
+    <sprite>sprites\sp_zombie</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -25,6 +28,7 @@
     <object>objects\ob_ground</object>
     <object>objects\ob_wall</object>
     <object>objects\ob_view</object>
+    <object>objects\ob_bullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_mainlevel</room>
